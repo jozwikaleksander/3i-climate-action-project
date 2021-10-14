@@ -1,0 +1,24 @@
+/* box sizing */ *,*::before,*::after{ box-sizing: border-box; }
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+/* Root */
+:root{
+    /* Color palette - przykładowe */
+    --primaryColor: #efefef;
+    --textColor: #111;
+    --accentColor: #81E979;
+    --backgroundColor: #dfdfdf;
+}
+
+/* Body */
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto',sans-serif;
+    color: var(--textColor);
+
+    background-color: var(--backgroundColor);
+}
