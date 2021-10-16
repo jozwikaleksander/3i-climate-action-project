@@ -3,12 +3,17 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
 
+/* Html */
+html{
+    scroll-behavior: smooth;
+}
+
 /* Root */
 :root{
     /* Color palette - przykładowe */
     --primaryColor: #efefef;
     --textColor: #111;
-    --accentColor: #81E979;
+    --accentColor: #68b862;
     --backgroundColor: #dfdfdf;
 }
 
@@ -19,6 +24,100 @@ body{
 
     font-family: 'Roboto',sans-serif;
     color: var(--textColor);
+}
 
-    background-color: var(--backgroundColor);
+/* Background */
+.bg{
+    position: fixed;
+    z-index: -1000;
+}
+
+/* Main navbar */
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    color: white;
+}
+
+.main-nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.main-nav ul li{
+    margin: 0 10px;
+    text-transform: capitalize;
+}
+
+.main-nav h3{
+    letter-spacing: .25rem;
+}
+
+.main-nav li:first-child{
+    border: 3px var(--accentColor) solid;
+    padding: 10px;
+    border-radius: 25px;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+    transition: .2s ease-in-out all;
+}
+.main-nav li:first-child:hover{
+    background-color: var(--accentColor);
+    color: white;
+}
+
+/* Hero */
+.hero{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 150px;
+    border-radius: 25px;
+}
+.hero h1{
+    font-size: 3rem;
+}
+.hero p{
+    width: 800px;
+}
+.hero button{
+    border: 3px var(--accentColor) solid;
+    background: transparent;
+    color: #fff;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    letter-spacing: .2rem;
+    font-weight: 300;
+    text-align: center;
+    cursor: pointer;
+    transition: .2s ease-in-out all;
+}
+.hero button:hover{
+    background-color: var(--accentColor);
+    color: white;
+}
+
+/* Main */
+main{
+    background: white;
+    margin: 0;
+    padding: 20px;
+}
+main h1{
+    margin: 0;
+    padding: 0;
+}
+main section{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
