@@ -121,3 +121,8 @@ main section{
     margin-left: auto;
     margin-right: auto;
 }
+.wave{
+    margin:0;
+    position: relative;
+    top:10px;
+}
