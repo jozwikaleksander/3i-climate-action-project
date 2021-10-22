@@ -1,1 +1,1 @@
-# 3i-climat-action-project
+# 3i-climate-action-project
