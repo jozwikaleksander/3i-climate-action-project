@@ -286,7 +286,6 @@ hr{
     .pic{
         margin: 5px auto;
         display: block;
-        width: 90%;
     }
     .right{
         margin-left: 0;
@@ -335,11 +334,23 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: var(--transition);
+}
+.slider-control-panel button:hover{
+    background-color: #efefef;
+    box-shadow: inset 0 0  10px 3px rgba(0,0,0,0.1);
 }
 
 @media screen and (max-width: 1200px) {
     .section-center{
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .slider{
+        max-width: 800px;
+        margin: 0 auto;
     }
 }
