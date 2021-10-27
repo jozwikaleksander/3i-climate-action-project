@@ -11,6 +11,7 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/slider.css">
 </head>
 <body>
 
@@ -85,7 +86,7 @@
               <div class="left">
                 <p>The Climate Action project is a free student-centered project - a 6 weeks journey involving more than 2.5 million students across 135 countries. It is supported by governments in 15 countries. The project is free, student-centered and aims to lead to a change of behavior through education. It is in collaboration with WWF and NASA, and endorsed by Jane Goodall, President Higgins, Kumi Naidoo, scientists and public figures. It was covered by media across 45 countries including BBC, CNN and National Geographic.</p>
                 
-                <a href="https://www.climate-action.info/" class="btn">Climate Action Project - Website</a>
+                <a target='_blank' href="https://www.climate-action.info/" class="btn">Climate Action Project - Website</a>
               </div>
               
               <div class="right">
@@ -99,16 +100,73 @@
 
         <section id="our-work" style="padding-bottom: 2rem;">
           <div class="section-center">
-            <h1>About project</h1>
+            <h1>Our work</h1>
             <hr>
             
             <p class="my2 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum fugit nam quae fugiat incidunt ipsam.</p>
 
             <div class="slider">
-              <img class="pic m-center" src="img/project_img.png" alt="">
+              <div class="slide-container">
+
+                <div class="slide">
+                  <div class="slide-inner">
+                    <h3>Week 1</h3>
+
+                    <iframe src="https://view.officeapps.live.com/op/embed.aspx?src=https%3A%2F%2Fpadlet%2Duploads%2Estorage%2Egoogleapis%2Ecom%3A443%2F1395230502%2Fe7cf5f914367ecf070a25700e4b3a127%2FClimate%5FChange%5FWeek2%2Epptx&amp;wdAr=1.7777777777777777" class='presentation' frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="slide-inner">
+                    <h3>Week 2</h3>
+
+                    <iframe src="https://view.officeapps.live.com/op/embed.aspx?src=https%3A%2F%2Fpadlet%2Duploads%2Estorage%2Egoogleapis%2Ecom%3A443%2F1395230502%2Fe7cf5f914367ecf070a25700e4b3a127%2FClimate%5FChange%5FWeek2%2Epptx&amp;wdAr=1.7777777777777777" class='presentation' frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+                  </div>
+                </div>
+  
+                <div class="slide">
+                  <div class="slide-inner">
+                    <h3>Week 3</h3>
+
+                    <iframe class='presentation'src="https://www.youtube.com/embed/eksod0elGf8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  
+                </div>
+
+                <div class="slide">
+                  <div class="slide-inner">
+                    <h3>Week 4</h3>
+
+                    <iframe class='presentation'src="https://www.youtube.com/embed/tC4uGLv4TyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
               <div class="slider-control-panel">
-                <button><i class="fas fa-arrow-left"></i></button>
-                <button><i class="fas fa-arrow-right"></i></button>
+                <button class="prev-btn"><i class="fas fa-arrow-left"></i></button>
+                <button class="next-btn"><i class="fas fa-arrow-right"></i></button>
+              </div>
+            </div>
+
+            <div class="slider">
+              <div class="slide-container">
+                <div class="slide">
+                  <img class="m-center slider-img" src="img/school.jpg">
+                </div>
+  
+                <div class="slide">
+                  <img class="m-center slider-img" src="img/background.png">
+                </div>
+
+                <div class="slide">
+                  <img class="m-center slider-img" src="img/background.png">
+                </div>
+
+                <div class="slide">
+                  <img class="m-center slider-img" src="img/background.png">
+                </div>
+              </div>
+              <div class="slider-control-panel">
+                <button class="prev-btn"><i class="fas fa-arrow-left"></i></button>
+                <button class="next-btn"><i class="fas fa-arrow-right"></i></button>
               </div>
             </div>
           </div>
@@ -125,5 +183,6 @@
 
     <!-- Scripts -->
     <script src="app.js"></script>
+    <script src="./scripts/slider.js"></script>
 </body>
 </html>
