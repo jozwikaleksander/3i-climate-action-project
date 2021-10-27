@@ -38,6 +38,13 @@ body{
 p {
     margin: 0;
 }
+hr{
+    max-width: 400px;
+    height: 3px;
+    border: none;
+    background-color: var(--accentColor);
+    margin-bottom: 30px;
+}
 
 
 .btn{
@@ -265,13 +272,6 @@ main section{
 }
 section h1{
     text-align: center;
-}
-hr{
-    width: 400px;
-    height: 3px;
-    border: none;
-    background-color: var(--accentColor);
-    margin-bottom: 30px;
 }
 
 /* About us */
