@@ -47,7 +47,12 @@ hr{
     background-color: var(--accentColor);
     margin-bottom: 30px;
 }
-
+section:last-child{
+    padding-bottom: 2rem;
+}
+ul{
+    list-style-type:circle;
+}
 
 .btn{
     display: block;
@@ -312,8 +317,10 @@ section h1{
 footer{
     background: #dedede;
     color: #333;
-    text-align: center;
     padding: 5px;
+}
+footer p{
+    text-align: center;
 }
 .dark{
     background: #333;
