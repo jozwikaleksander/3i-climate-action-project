@@ -38,6 +38,7 @@ body{
 
 p {
     margin: 0;
+    text-align: justify;
 }
 hr{
     max-width: 400px;
@@ -288,9 +289,6 @@ section h1{
 }
 .right{
     margin-left: 20px;
-}
-.right p{
-    text-align: justify;
 }
 .pic{
     border-radius: .5rem;
