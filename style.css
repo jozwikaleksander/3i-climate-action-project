@@ -53,6 +53,14 @@ section:last-child{
 ul{
     list-style-type:circle;
 }
+a{
+    text-decoration: none;
+    color: var(--textColor);
+    transition: var(--transition);
+}
+a:hover{
+    color: var(--lighterTextColor);
+}
 
 .btn{
     display: block;
