@@ -44,6 +44,8 @@ scrollLinks.forEach((link) => {
     const id = e.currentTarget.getAttribute("href").slice(1);
     const element = document.getElementById(id);
 
+    navToggle.classList.toggle('navToggleOn');
+
     const navHeight = navbar.getBoundingClientRect().height;
     const containerHeight = linksContainer.getBoundingClientRect().height;
     let position = element.offsetTop - navHeight;
