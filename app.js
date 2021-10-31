@@ -44,7 +44,7 @@ scrollLinks.forEach((link) => {
     const id = e.currentTarget.getAttribute("href").slice(1);
     const element = document.getElementById(id);
 
-    navToggle.classList.toggle('navToggleOn');
+    navToggle.classList.remove('navToggleOn');
 
     const navHeight = navbar.getBoundingClientRect().height;
     const containerHeight = linksContainer.getBoundingClientRect().height;
